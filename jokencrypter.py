@@ -48,11 +48,12 @@ def decrypt(f):
 		os.remove(f)
 		inp = ""
 
-
-
-
-
-
+print("     __        _    _____           ___                   _____  ___   ")
+print("     \ \  ___ | | _|___ / _ __ ___ / _ \ _ __   ___ _   _|___ / / _ \  ")
+print("      \ \/ _ \| |/ / |_ \| '__/ __| | | | '_ \ / __| | | | |_ \| | | | ")
+print("   /\_/ | (_) |   < ___) | | | (__| |_| | | | | (__| |_| |___) | |_| | ")
+print("   \___/ \___/|_|\_|____/|_|  \___|\___/|_| |_|\___|\__, |____/ \___/  ")
+print("                                                    |___/              ")
 
 ch = int(input("ENter 1 for encryption or 2 for decryption:"))
 j = input("Enter the path of the file: ")
